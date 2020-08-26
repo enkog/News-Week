@@ -10,53 +10,53 @@
     integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
   <link rel="icon" href="img/favicon.ico">
 
-    
-    
-      <link rel="stylesheet" href="css/style.css">
 
 
-    <title>NewsWeek Project</title>
-  </head>
+  <link rel="stylesheet" href="css/style.css">
 
-  <body class="container-fluid">
-    <!-- top-nav-bar-->
-    <header>
-      <nav id="top" class="row justify-content-between text-white py-2">
 
-        <!-- weather -->
-        <div class="weather col-lg-3 py3 d-none d-lg-block">
-          <div>
-            <a href="#" class="text-white">
-              <i class="fas fa-cloud-sun-rain"></i><span> 45°</span><span> Fes, Morocco</span>
-            </a>
-          </div>
-          <div>
-            <div>tues, Aug 25, 2020</div>
-          </div>
+  <title>NewsWeek Project</title>
+</head>
+
+<body class="container-fluid">
+  <!-- top-nav-bar-->
+  <header>
+    <nav id="top" class="row justify-content-between text-white py-2">
+
+      <!-- weather -->
+      <div class="weather col-lg-3 py3 d-none d-lg-block">
+        <div>
+          <a href="#" class="text-white">
+            <i class="fas fa-cloud-sun-rain"></i><span> 45°</span><span> Fes, Morocco</span>
+          </a>
         </div>
-
-        <!-- title-logo -->
-        <div class="col_md-3 col-lg-4 col-5 d-flex py-1 text-center">
-          <img src="images/title.svg" alt="newsweek">
+        <div>
+          <div>tues, Aug 25, 2020</div>
         </div>
+      </div>
 
-        <!-- login & subscribe -->
+      <!-- title-logo -->
+      <div class="col_md-3 col-lg-4 col-5 d-flex py-1 text-center">
+        <img src="images/title.svg" alt="newsweek">
+      </div>
 
-        <div class="col-lg-3 col-md-6 col-6 d-flex align-items-center justify-content-end">
-          <i class="fas fa-user fa-md-2x d-md-none"></i>
-          <button type="submit" 
-            class="display-5 font-weight-bolder m-0 bg-transparent border-0 text-white d-none d-md-block">
-            Login
+      <!-- login & subscribe -->
+
+      <div class="col-lg-3 col-md-6 col-6 d-flex align-items-center justify-content-end">
+        <i class="fas fa-user fa-md-2x d-md-none"></i>
+        <button type="submit"
+          class="display-5 font-weight-bolder m-0 bg-transparent border-0 text-white d-none d-md-block">
+          Login
+        </button>
+        <div>
+          <button type="button" class="btn btn-warning font-weight-bolder rounded-pill mx-3">
+            SUBSCRIBE
           </button>
-          <div>
-            <button type="button" class="btn btn-warning font-weight-bolder rounded-pill mx-3">
-              SUBSCRIBE
-            </button>
-            <i class="bars-icon fas fa-bars d-lg-none fa-2x"></i>
-          </div>
+          <i class="bars-icon fas fa-bars d-lg-none fa-2x"></i>
         </div>
+      </div>
 
-      </nav>
+    </nav>
 
     <!-- bottom-nav-bar -->
 
@@ -106,474 +106,618 @@
     </nav>
 
     <!-- last-nav-bar -->
-        <nav class="row d-none d-lg-block bg-white py-2 medium-nav">
-          <div class="align-items-center border-bottom d-flex W-75">
-        
-            <ul class="navbar medium-nav-items list-unstyled m-0 justify-content-start">
-              <li>
-                <a class="text-nowrap font-weight-bold h6 px-3 text-dark m-0" href="#">TRENDING</a>
-              </li>
-              <li>
-                <a class="text-nowrap font-weight-bold h6 px-3 text-dark m-0" href="#">DONALD TRUMP</a>
-              </li>
-              <li>
-                <a class="text-nowrap font-weight-bold h6 px-3 text-dark m-0" href="#">JOE BIDEN</a>
-              </li>
-              <li>
-                <a class="text-nowrap font-weight-bold h6 px-3 text-dark m-0" href="#">CHINA</a>
-              </li>
-              <li>
-                <a class="text-nowrap font-weight-bold h6 px-3 text-dark m-0" href="#">CORONAVIRUS</a>
-              </li>
-              <li>
-                <a class="text-nowrap font-weight-bold h6 px-3 text-dark m-0" href="#">2020 ELECTIONS</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-</header>
+    <nav class="row d-none d-lg-block bg-white py-2 medium-nav">
+      <div class="align-items-center border-bottom d-flex W-75">
 
-<section class="row">
+        <ul class="navbar medium-nav-items list-unstyled m-0 justify-content-start">
+          <li>
+            <a class="text-nowrap font-weight-bold h6 px-3 text-dark m-0" href="#">TRENDING</a>
+          </li>
+          <li>
+            <a class="text-nowrap font-weight-bold h6 px-3 text-dark m-0" href="#">DONALD TRUMP</a>
+          </li>
+          <li>
+            <a class="text-nowrap font-weight-bold h6 px-3 text-dark m-0" href="#">JOE BIDEN</a>
+          </li>
+          <li>
+            <a class="text-nowrap font-weight-bold h6 px-3 text-dark m-0" href="#">CHINA</a>
+          </li>
+          <li>
+            <a class="text-nowrap font-weight-bold h6 px-3 text-dark m-0" href="#">CORONAVIRUS</a>
+          </li>
+          <li>
+            <a class="text-nowrap font-weight-bold h6 px-3 text-dark m-0" href="#">2020 ELECTIONS</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section class="row">
 
     <div class="bg-white mb-md-0 p-3 col-md-5 col-lg order-1">
 
       <div class="d-md-none bg-white mb-3 order-first order-md-2">
-        <h3 class="title">
-            TOP STORY
+        <h3 class="title text-uppercase">
+          TOP STORY
         </h3>
         <div class="card border-0 mb-3 order-first">
-            <figure class="position-relative">
-                <img src="./images/top-story/kenosha.webp" alt="kenosha" class="w-100">
-                <figcaption class="position-absolute fixed-bottom w-25 p-1 d-flex justify-content-center align-items-center">
-                    U.S.
-                </figcaption>
-            </figure>
-            <a href="#" class="mb-2 "> 
-                Jacob Blake's Mother Calls for Peaceful Protests After Kenosha Shooting
-            </a>
-            <p>
-                "We will not excuse the actions of the Kenosha Police department," read
-                 a tweet from Jacob Blake's cousin, "but his mother asks everyone to 
-                 please remain peaceful."
-            </p>
+          <figure class="position-relative">
+            <img src="./images/top-story/kenosha.webp" alt="kenosha" class="w-100" />
+            <figcaption
+              class="position-absolute fixed-bottom w-25 p-1 d-flex justify-content-center align-items-center">
+              U.S.
+            </figcaption>
+          </figure>
+          <a href="#" class="mb-2 ">Jacob Blake's Mother Calls for Peaceful Protests After Kenosha Shooting</a>
+          <p>
+            "We will not excuse the actions of the Kenosha Police department," read
+            a tweet from Jacob Blake's cousin, "but his mother asks everyone to
+            please remain peaceful."
+          </p>
         </div>
-    </div>
+      </div>
 
+      <h3 class="title text-uppercase">
+        FEATURED STORIES
+      </h3>
+      
+      <div class="card border-0 mb-3">
+        <figure class="position-relative">
+          <img src="./images/featurd_story/jerry-falwell-jr.webp" alt="Jerry_Falwell w-100" />
+          <figcaption class="position-absolute fixed-bottom w-25 p-1 d-flex justify-content-center align-items-center">
+            U.S.
+          </figcaption>
+        </figure>
+        <a class="mb-2" href="#">Supreme Court Allows Trump to Use Pentagon Funds to
+        Build Border Wall</a>
+        <p class="text-dark h6">
+          Jerry Falwell, Jr., a longtime supporter of
+          President Donald Trump, resigned from his
+          position at Liberty University on Monday amidst
+          allegations of sexual misconduct.
+        </p>
+      </div>
+
+      <div class="card border-0 mb-3">
+        <figure class="position-relative">
+          <img src="./images/featurd_story/jerry-falwell-jr.webp" alt="Jerry Falwell" class="w-100">
+          <figcaption class="position-absolute fixed-bottom w-25 p-1 d-flex justify-content-center align-items-center">
+            U.S.
+          </figcaption>
+        </figure>
+        <a href="#" class="mb-2">Jerry Falwell Leaves Liberty University As Sexual Misconduct Reports Surface</a>
+        <p class="text-dark h6">
+          Jerry Falwell, Jr., a longtime supporter of
+          President Donald Trump, resigned from his
+          position at Liberty University on Monday amidst
+          allegations of sexual misconduct.
+        </p>
+      </div>
+
+      <div class="card border-0 mb-3">
+        <figure class="position-relative">
+          <img src="./images/featurd_story/jerry-falwell-jr.webp" alt="Jerry Falwell" class="w-100">
+          <figcaption class="position-absolute fixed-bottom w-25 p-1 d-flex justify-content-center align-items-center">
+            U.S.
+          </figcaption>
+        </figure>
+        <a href="#" class="mb-2">Jerry Falwell Leaves Liberty University As Sexual Misconduct Reports Surface</a>
+        <p class="text-dark h6">
+          Jerry Falwell, Jr., a longtime supporter of
+          President Donald Trump, resigned from his
+          position at Liberty University on Monday amidst
+          allegations of sexual misconduct.
+        </p>
+      </div>
+
+      <div class="card border-0 mb-3">
+        <figure class="position-relative">
+          <img src="./images/featurd_story/jerry-falwell-jr.webp" alt="Jerry Falwell" class="w-100">
+          <figcaption class="position-absolute fixed-bottom w-25 p-1 d-flex justify-content-center align-items-center">
+            U.S.
+          </figcaption>
+        </figure>
+        <a href="#" class="mb-2">
+          Jerry Falwell Leaves Liberty University As Sexual Misconduct Reports Surface
+        </a>
+        <p class="text-dark h6">
+          Jerry Falwell, Jr., a longtime supporter of
+          President Donald Trump, resigned from his
+          position at Liberty University on Monday amidst
+          allegations of sexual misconduct.
+        </p>
+      </div>
+
+      <div class="card border-0">
+        <figure class="position-relative">
+          <img src="./images/featurd_story/jerry-falwell-jr.webp" alt="Jerry Falwell" class="w-100">
+          <figcaption class="position-absolute fixed-bottom w-25 p-1 d-flex justify-content-center align-items-center">
+            U.S.
+          </figcaption>
+        </figure>
+        <a href="#" class="mb-2">
+          Jerry Falwell Leaves Liberty University As Sexual Misconduct Reports Surface
+        </a>
+        <p class="text-dark h6">
+          Jerry Falwell, Jr., a longtime supporter of
+          President Donald Trump, resigned from his
+          position at Liberty University on Monday amidst
+          allegations of sexual misconduct.
+        </p>
+      </div>
+    </div>
+    <!-- Second top story -->
+    <div class="bg-white col-md-7 col-lg-5 d-flex flex-column p-md-0 order-3 order-md-2">
+
+      <div class="d-none d-md-block bg-white p-3 order-md-first">
         <h3 class="title">
-            FEATURED STORIES
+          TOP STORY
         </h3>
-        <div class="card border-0 mb-3">
+        <div class="card border-0 order-first">
+          <figure class="position-relative w-100">
+            <img src="./images/top-story/kenosha.webp" alt="kenosha" class="w-100">
+            <figcaption
+              class="position-absolute fixed-bottom w-25 p-1 d-flex justify-content-center align-items-center">
+              U.S.
+            </figcaption>
+          </figure>
+          <a href="#" class="mb-2">
+            Jacob Blake's Mother Calls for Peaceful Protests After Kenosha Shooting
+          </a>
+          <p>
+            "We will not excuse the actions of the Kenosha Police department," read
+            a tweet from Jacob Blake's cousin, "but his mother asks everyone to
+            please remain peaceful."
+          </p>
+        </div>
+      </div>
+
+      <!-- My turn -->
+      <div class="p-3 order-2 order-md-1 w-100">
+        <h3 class="title p-1">
+          MY TURN
+        </h3>
+        <div class="d-md-flex">
+
+          <figure class="col-md-4 p-1">
+            <img src="./images/top-story/my_turn/infidelity-cheating-relationships-therapy.webp" alt="infidelity"
+              class="img-fluid">
+            <figcaption class="title mt-2">
+              'I Work With Cheaters.
+              Here Are My Top 6
+              Signs to Spot an Affair'
+            </figcaption>
+          </figure>
+
+          <figure class="col-md-4 p-1">
+            <img src="./images/top-story/my_turn/michelle-obama-vote-necklace-chari-dnc.webp" alt="Obama"
+              class="img-fluid">
+            <figcaption class="title mt-2">
+              'I Designed Michelle
+              Obama's VOTE
+              Necklace'
+            </figcaption>
+          </figure>
+
+          <figure class="col-md-4 p-1">
+            <img src="./images/top-story/my_turn/teacher-teaching-alexandra-ocasio-cortez.webp" alt="teacher"
+              class="img-fluid">
+            <figcaption class="title mt-2">
+              'Teaching Is Tough, but
+              I'm Inspired by My
+              Former Student AOC'
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <!-- Culture and Travel -->
+      <div class="p-3 order-3 order-md-2 w-100">
+        <h3 class="title p-1">CULTURE AND TRAVEL</h3>
+        <div class="d-md-flex">
+          <div class="card border-0 px-0 col-md-4">
             <figure class="position-relative">
-                <img  src="./images/featurd_story/jerry-falwell-jr.webp" alt="Jerry_Falwell" >
-                <figcaption class="position-absolute fixed-bottom w-25 p-1 d-flex justify-content-center align-items-center">
-                    U.S.
-                </figcaption>
+              <img src="./images/top-story/culter_&_travel/amtrak.webp" alt="amtrak" class="w-100">
+              <figcaption class="position-absolute text-center fixed-bottom bg-info text-dark w-50">
+                AMTRAK
+              </figcaption>
             </figure>
-            <a href="#">
-                Jerry Falwell Leaves Liberty University As Sexual Misconduct Reports Surface
-            </a>
-            <p class="text-dark h6">
-                Jerry Falwell, Jr., a longtime supporter of
-                President Donald Trump, resigned from his
-                position at Liberty University on Monday amidst
-                allegations of sexual misconduct.
+            <p class="title mt-2">
+              What It's Like to Travel
+              Across the Country by
+              Amtrak Right Now
             </p>
+          </div>
+
+          <div class="card border-0 px-0 col-md-4">
+            <figure class="position-relative">
+              <img src="./images/top-story/culter_&_travel/central-park-monument.webp" alt="central park" class="w-100">
+              <figcaption class="position-absolute text-center text-xsmall fixed-bottom bg-info text-dark w-75">WOMEN'S RIGHT
+              </figcaption>
+            </figure>
+            <p class="title mt-2">
+              Breaking the 'Bronze
+              Ceiling': Central Park's
+              First Statue Honoring
+              Women
+            </p>
+          </div>
+
+          <div class="card border-0 px-0 col-md-4">
+            <figure class="position-relative">
+              <img src="./images/top-story/culter_&_travel/delta-airlines.webp" alt="airlines" class="w-100">
+              <figcaption class="position-absolute text-center fixed-bottom bg-info text-dark w-50">
+                TRAVEL
+              </figcaption>
+            </figure>
+            <p class="title mt-2">
+              How Likely Is It to
+              Contract COVID-19 on
+              a Plane?
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- more storeis column -->
+
+      <div class="mb-3 mb-md-0 p-3 mt-3 order-1 order-md-3">
+        <h3 class="title pb-3 mt-3">
+          MORE STORIES
+        </h3>
+
+        <div class="border-bottom border-top py-3">
+          <img class="col-3 p-0 mr-3 float-left" src="./images/top-story/more_stories/blm.webp" alt="protest" />
+          <a class="mb-4 h6" href="#">
+            Jacob Blake's Three Sons WereIn Car, 'Saw A Cop Shoot
+            Their Father'
+          </a>
+          <p class="mt-2">
+            Prominent civil rights attorney Ben Crump said Blake's
+            children "will be traumatized forever" after watching
+            police shoot their father.
+          </p>
         </div>
 
-        <div class="card border-0 mb-3">
-            <figure class="position-relative">
-                <img src="./images/featurd_story/jerry-falwell-jr.webp" alt="Jerry Falwell" class="w-100">
-                <figcaption class="position-absolute fixed-bottom w-25 p-1 d-flex justify-content-center align-items-center">
-                    U.S.
-                </figcaption>
-            </figure>
-            <a href="#">
-                Jerry Falwell Leaves Liberty University As Sexual Misconduct Reports Surface
-            </a>
-            <p class="text-dark h6">
-                Jerry Falwell, Jr., a longtime supporter of
-                President Donald Trump, resigned from his
-                position at Liberty University on Monday amidst
-                allegations of sexual misconduct.
-            </p>
+        <div class="border-bottom border-top py-3">
+          <img class="col-3 p-0 mr-3 float-left"
+            src="./images/top-story/more_stories/donald-trump-coronavirus-convalescent-plasma-getty.webp"
+            alt="showcase-image" />
+          <a class="mb-4 h6" href="#">
+            Trump Announcement on Convalescent Plasma Blasted
+            by Scientists
+          </a>
+          <p class="mt-2">
+            Experts questioned claims by the administration that the
+            treatment reduces mortality by 35 percent in some
+            COVID-19 patients.
+          </p>
         </div>
-    
-        <div class="card border-0 mb-3">
-            <figure class="position-relative">
-                <img src="./images/featurd_story/jerry-falwell-jr.webp" alt="Jerry Falwell" class="w-100">
-                <figcaption class="position-absolute fixed-bottom w-25 p-1 d-flex justify-content-center align-items-center">
-                    U.S.
-                </figcaption>
-            </figure>
-            <a href="#">
-                Jerry Falwell Leaves Liberty University As Sexual Misconduct Reports Surface
-            </a>
-            <p class="text-dark h6">
-                Jerry Falwell, Jr., a longtime supporter of
-                President Donald Trump, resigned from his
-                position at Liberty University on Monday amidst
-                allegations of sexual misconduct.
-            </p>
+        <div class="border-bottom border-top py-3">
+          <img class="col-3 p-0 mr-3 float-left" src="./images/top-story/more_stories/fe-undecided.webp"
+            alt="showcase-image" />
+          <a class="mb-4 h6" href="#">
+            Undecided Voters Were Key to Trump's Win in 2016. Will
+            They Deliver Again?
+          </a>
+          <p class="mt-2">
+            A late break toward Donald Trump by undecided voters
+            helped decide the election in 2016. Biden has the edge
+            among this group now but there's still plenty of time for
+            the incumbent to change their minds and make MAGA magic happen
+            twice.
+          </p>
         </div>
-    
-        <div class="card border-0 mb-3">
-            <figure class="position-relative">
-                <img src="./images/featurd_story/jerry-falwell-jr.webp" alt="Jerry Falwell" class="w-100">
-                <figcaption class="position-absolute fixed-bottom w-25 p-1 d-flex justify-content-center align-items-center">
-                    U.S.
-                </figcaption>
-            </figure>
-            <a href="#">
-                Jerry Falwell Leaves Liberty University As Sexual Misconduct Reports Surface
-            </a>
-            <p class="text-dark h6">
-                Jerry Falwell, Jr., a longtime supporter of
-                President Donald Trump, resigned from his
-                position at Liberty University on Monday amidst
-                allegations of sexual misconduct.
-            </p>
+        <div class="border-bottom border-top py-3">
+          <img class="col-3 p-0 mr-3 float-left"
+            src="./images/top-story/more_stories/iran-ali-khamanei-apple-iphome-imports-twitter.webp"
+            alt="showcase-image" />
+          <a class="mb-4 h6" href="#">
+            Iran's Ayatollah Khamenei Uses iPhone to Demand End
+            of Apple Imports
+          </a>
+          <p class="mt-2">
+            The Iranian supreme leader attacked imports from "a
+            certain luxury US mobile brand," but sent his
+            condemnation through an Apple product.
+          </p>
         </div>
-    
-        <div class="card border-0">
-            <figure class="position-relative">
-                <img src="./images/featurd_story/jerry-falwell-jr.webp" alt="Jerry Falwell" class="w-100">
-                <figcaption class="position-absolute fixed-bottom w-25 p-1 d-flex justify-content-center align-items-center">
-                    U.S.
-                </figcaption>
-            </figure>
-            <a href="#">
-                Jerry Falwell Leaves Liberty University As Sexual Misconduct Reports Surface
-            </a>
-            <p class="text-dark h6">
-                Jerry Falwell, Jr., a longtime supporter of
-                President Donald Trump, resigned from his
-                position at Liberty University on Monday amidst
-                allegations of sexual misconduct.
-            </p>
+        <div class="border-bottom border-top py-3">
+          <img class="col-3 p-0 mr-3 float-left"
+            src="./images/top-story/more_stories/lnu-lightning-complex-fire-california-august-2020.webp"
+            alt="showcase-image" />
+          <a class="mb-4 h6" href="#">
+            California Fires Update, Hundreds of Blazes Burn Nearly
+            a Million Acres
+          </a>
+          <p class="mt-2">
+            Tens of thousands have been evacuated, with nearly 700
+            homes destroyed by the fires.
+          </p>
         </div>
+        <div class="border-bottom border-top py-3">
+          <img class="col-3 p-0 mr-3 float-left"
+            src="./images/top-story/more_stories/maga-hat-rnc-virtual-convention-2020.webp" alt="showcase-image" />
+          <a class="mb-4 h6" href="#">
+            Democratic Convention Set the Bar High for Diversity—
+            Will the GOP Meet It?
+          </a>
+          <p class="mt-2">
+            One Republican strategist said the GOP will have a hard
+            time winning elections if it doesn't start to improve it's
+            standing among minority voters: "The writing is on the
+            wall."
+          </p>
+        </div>
+        <div class="border-bottom border-top py-3">
+          <img class="col-3 p-0 mr-3 float-left" src="./images/top-story/more_stories/mark-zuckerberg.webp"
+            alt="showcase-image" />
+          <a class="mb-4 h6" href="#">
+            'Ludicrous': Facebook on the Idea Zuckerberg
+            Influenced U.S. TikTok Policy
+          </a>
+          <p class="mt-2">
+            "Mark has never advocated for a ban on Tik Tok. He has
+            repeatedly said publicly that the biggest competitors to
+            U.S. tech companies are Chinese companies," a
+            Facebook spokesperson said.
+          </p>
+        </div>
+        <div class="border-bottom border-top py-3">
+          <img class="col-3 p-0 mr-3 float-left"
+            src="./images/top-story/more_stories/oil-gas-pollution-industry-environmental.webp" alt="showcase-image" />
+          <a class="mb-4 h6" href="#">
+            Countless Deaths Tied to Trump Admin Environmental
+            Rollbacks Amid Pandemic
+          </a>
+          <p class="mt-2">
+            Public health and environmental experts say "there's
+            nobody watching" U.S. oil and gas companies along with
+            other leading pollutant operations after the industry
+            complained about being unable to do business during the lockdown.
+          </p>
+        </div>
+        <div class="border-bottom border-top py-3">
+          <img class="col-3 p-0 mr-3 float-left" src="./images/top-story/more_stories/president-donald-trump.webp"
+            alt="showcase-image" />
+          <a class="mb-4 h6" href="#">
+            Only 31% Approve of Trump's Coronavirus Response,
+            Poll Indicates
+          </a>
+          <p class="mt-2">
+            While only 31 percent of Americans surveyed in a poll
+            released Monday approved of President Donald Trump's
+            response to the COVID-19 pandemic, 44 percent
+            approved in a poll taken by the same group in March.
+          </p>
+        </div>
+        <div class="border-bottom border-top py-3">
+          <img class="col-3 p-0 mr-3 float-left"
+            src="./images/top-story/more_stories/south-china-sea-tensions-us-china-military.webp"
+            alt="showcase-image" />
+          <a class="mb-4 h6" href="#">
+            Beijing Holds Six Military Drills in a Week Amid South
+            China Sea Tensions
+          </a>
+          <p class="mt-2">
+            The South China Sea remains tense amid disputes
+            regarding Beijing's territorial claims over the region's
+            busy shipping routes and potentially lucrative natural
+            resources.
+          </p>
+        </div>
+        <div class="border-bottom border-top py-3">
+          <img class="col-3 p-0 mr-3 float-left" src="./images/top-story/more_stories/tropical-storm-marco.webp"
+            alt="showcase-image" />
+          <a class="mb-4 h6" href="#">
+            Tropical Storms Marco and Laura Path, Tracker as
+            Hurricane Likely to Hit
+          </a>
+          <p class="mt-2">
+            Louisiana is expected to be hit by two Tropical Storms
+            that will make landfall within days of each other.
+          </p>
+        </div>
+        <div class="border-top py-3">
+          <img class="col-3 p-0 mr-3 float-left" src="./images/top-story/more_stories/trump.webp"
+            alt="showcase-image" />
+          <a class="mb-4 h6" href="#">
+            RNC Lineup Lays Bare Trump's Split From Republican
+            Party's Past
+          </a>
+          <p class="mt-2">
+            President Donald Trump touted his credentials as a
+            political outsider in 2016, and the 2020 RNC appears
+            unlikely to follow party precedent
+          </p>
+        </div>
+      </div>
+
+      <div class="d-md-none order-last my-1 p-4 w-100">
+        <div class="row border mb-3 badge-light m-auto ">
+          <img class="w-25 col-2 my-3 pr-0" src="img/n.png" alt="Newsletter logo">
+          <h6 class="font-weight-bolder mt-3 pr-1 col-10">START YOUR DAY WITH OUR TOP 5 ARTICLES</h6>
+          <input class="border my-1 mx-3 p-1 w-100" type="email" name="email" placeholder="Email...">
+          <button type="submit" class="mt-1 p-1 mb-3 mx-3 border-0 text-white w-100 font-weight-bold bg-danger">
+            FREE SIGN-UP >
+          </button>
+        </div>
+      </div>
     </div>
-        <!-- Second top story -->
-        <div class="bg-white col-md-7 col-lg-5 d-flex flex-column p-md-0 order-3 order-md-2">
 
-            <div class="d-none d-md-block bg-white p-3 order-md-first">
-                <h3 class="title">
-                    TOP STORY
-                </h3>
-                <div class="card border-0 order-first">
-                    <figure class="position-relative w-100">
-                        <img src="./images/top-story/kenosha.webp" alt="kenosha" class="w-100">
-                        <figcaption class="position-absolute fixed-bottom w-25 p-1 d-flex justify-content-center align-items-center">
-                            U.S.
-                        </figcaption>
-                    </figure>
-                    <a href="#" class="mb-2"> 
-                        Jacob Blake's Mother Calls for Peaceful Protests After Kenosha Shooting
-                    </a>
-                    <p>
-                        "We will not excuse the actions of the Kenosha Police department," read
-                         a tweet from Jacob Blake's cousin, "but his mother asks everyone to 
-                         please remain peaceful."
-                    </p>
-                </div>
-            </div>
+    <!-- debate & opinion -->
 
-            <!-- My turn -->
-            <div class="p-3 order-2 order-md-1 w-100">
-                <h3 class="title p-1">
-                    MY TURN
-                </h3>
-                <div class="d-md-flex">
+    <div class="bg-with p-3 col-12 col-lg order-2 order-md-3 debate">
+      <h3 class="title">THE DEBATE</h3>
 
-                    <figure class="col-md-4 p-1">
-                        <img src="./images/top-story/my_turn/infidelity-cheating-relationships-therapy.webp" alt="infidelity" class="img-fluid">
-                        <figcaption class="title mt-2">
-                            'I Work With Cheaters. 
-                            Here Are My Top 6 
-                            Signs to Spot an Affair'
-                        </figcaption>
-                    </figure>
+      <div class="position-relative mb-md-0 mb-4">
 
-                    <figure class="col-md-4 p-1">
-                        <img src="./images/top-story/my_turn/michelle-obama-vote-necklace-chari-dnc.webp" alt="Obama" class="img-fluid">
-                        <figcaption class="title mt-2">
-                            'I Designed Michelle 
-                            Obama's VOTE 
-                            Necklace'
-                        </figcaption>
-                    </figure>
-
-                    <figure class="col-md-4 p-1">
-                        <img src="./images/top-story/my_turn/teacher-teaching-alexandra-ocasio-cortez.webp" alt="teacher" class="img-fluid">
-                        <figcaption class="title mt-2">
-                            'Teaching Is Tough, but
-                             I'm Inspired by My
-                             Former Student AOC'
-                        </figcaption>
-                    </figure>
-                </div>
-            </div>
-
-            <!-- Culture and Travel -->
-            <div class="p-3 order-3 order-md-2 w-100">
-                <h3 class="title p-1">CULTURE AND TRAVEL</h3>
-                <div class="d-md-flex">
-                    <div class="card border-0 px-0 col-md-4">
-                        <figure class="position-relative">
-                            <img src="./images/top-story/culter_&_travel/amtrak.webp" alt="amtrak" class="w-100">
-                            <figcaption class="position-absolute text-center fixed-bottom bg-info text-dark w-50">
-                                AMTRAK
-                            </figcaption>
-                        </figure>
-                        <p class="title mt-2">
-                            What It's Like to Travel
-                            Across the Country by
-                            Amtrak Right Now
-                        </p>
-                    </div>
-
-                    <div class="card border-0 px-0 col-md-4">
-                        <figure class="position-relative">
-                            <img src="./images/top-story/culter_&_travel/central-park-monument.webp" alt="central park" class="w-100">
-                            <figcaption class="position-absolute text-center fixed-bottom bg-info text-dark w-50">
-                                WOMEN'S RIGHT
-                            </figcaption>
-                        </figure>
-                        <p class="title mt-2">
-                            Breaking the 'Bronze
-                            Ceiling': Central Park's
-                            First Statue Honoring 
-                            Women
-                        </p>
-                    </div>
-
-                    <div class="card border-0 px-0 col-md-4">
-                        <figure class="position-relative">
-                            <img src="./images/top-story/culter_&_travel/delta-airlines.webp" alt="airlines" class="w-100">
-                            <figcaption class="position-absolute text-center fixed-bottom bg-info text-dark w-50">
-                                TRAVEL
-                            </figcaption>
-                        </figure>
-                        <p class="title mt-2">
-                            How Likely Is It to 
-                            Contract COVID-19 on 
-                            a Plane?
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- more storeis column -->
-            
-            <div class="mb-3 mb-md-0 p-3 mt-3 order-1 order-md-3">
-              <h3 class="title pb-3 mt-3">
-                MORE STORIES
-              </h3>
-            
-              <div class="border-bottom border-top py-3">
-                <img class="col-3 p-0 mr-3 float-left" src="./images/top-story/more_stories/blm.webp" alt="protest" />
-                <a class="mb-4 h6" href="#">
-                  Jacob Blake's Three Sons WereIn Car, 'Saw A Cop Shoot 
-                  Their Father'
-                </a>
-                <p class="mt-2">
-                  Prominent civil rights attorney Ben Crump said Blake's 
-                  children "will be traumatized forever" after watching 
-                  police shoot their father.
-                </p>
-              </div>
-            
-              <div class="border-bottom border-top py-3">
-                <img class="col-3 p-0 mr-3 float-left" src="./images/top-story/more_stories/donald-trump-coronavirus-convalescent-plasma-getty.webp" alt="showcase-image" />
-                <a class="mb-4 h6" href="#">
-                  Trump Announcement on Convalescent Plasma Blasted 
-                  by Scientists
-                </a>
-                <p class="mt-2">
-                  Experts questioned claims by the administration that the 
-                  treatment reduces mortality by 35 percent in some 
-                  COVID-19 patients.
-                </p>
-              </div>
-              <div class="border-bottom border-top py-3">
-                <img class="col-3 p-0 mr-3 float-left" src="./images/top-story/more_stories/fe-undecided.webp" alt="showcase-image" />
-                <a class="mb-4 h6" href="#">
-                  Undecided Voters Were Key to Trump's Win in 2016. Will 
-                  They Deliver Again?
-                </a>
-                <p class="mt-2">
-                  A late break toward Donald Trump by undecided voters 
-                  helped decide the election in 2016. Biden has the edge 
-                  among this group now but there's still plenty of time for 
-                  the incumbent to change their minds and make MAGA magic happen 
-                  twice.
-                </p>
-              </div>
-              <div class="border-bottom border-top py-3">
-                <img class="col-3 p-0 mr-3 float-left" src="./images/top-story/more_stories/iran-ali-khamanei-apple-iphome-imports-twitter.webp" alt="showcase-image" />
-                <a class="mb-4 h6" href="#">
-                  Iran's Ayatollah Khamenei Uses iPhone to Demand End 
-                  of Apple Imports
-                </a>
-                <p class="mt-2">
-                  The Iranian supreme leader attacked imports from "a 
-                  certain luxury US mobile brand," but sent his 
-                  condemnation through an Apple product.
-                </p>
-              </div>
-              <div class="border-bottom border-top py-3">
-                <img class="col-3 p-0 mr-3 float-left" src="./images/top-story/more_stories/lnu-lightning-complex-fire-california-august-2020.webp" alt="showcase-image" />
-                <a class="mb-4 h6" href="#">
-                  California Fires Update, Hundreds of Blazes Burn Nearly 
-                  a Million Acres
-                </a>
-                <p class="mt-2">
-                  Tens of thousands have been evacuated, with nearly 700 
-                  homes destroyed by the fires.
-                </p>
-              </div>
-              <div class="border-bottom border-top py-3">
-                <img class="col-3 p-0 mr-3 float-left" src="./images/top-story/more_stories/maga-hat-rnc-virtual-convention-2020.webp" alt="showcase-image" />
-                <a class="mb-4 h6" href="#">
-                  Democratic Convention Set the Bar High for Diversity—
-                  Will the GOP Meet It?
-                </a>
-                <p class="mt-2">
-                  One Republican strategist said the GOP will have a hard 
-                  time winning elections if it doesn't start to improve it's
-                  standing among minority voters: "The writing is on the 
-                  wall."
-                </p>
-              </div>
-              <div class="border-bottom border-top py-3">
-                <img class="col-3 p-0 mr-3 float-left" src="./images/top-story/more_stories/mark-zuckerberg.webp" alt="showcase-image" />
-                <a class="mb-4 h6" href="#">
-                  'Ludicrous': Facebook on the Idea Zuckerberg 
-                  Influenced U.S. TikTok Policy
-                </a>
-                <p class="mt-2">
-                  "Mark has never advocated for a ban on Tik Tok. He has 
-                  repeatedly said publicly that the biggest competitors to 
-                  U.S. tech companies are Chinese companies," a 
-                  Facebook spokesperson said.
-                </p>
-              </div>
-              <div class="border-bottom border-top py-3">
-                <img class="col-3 p-0 mr-3 float-left" src="./images/top-story/more_stories/oil-gas-pollution-industry-environmental.webp" alt="showcase-image" />
-                <a class="mb-4 h6" href="#">
-                  Countless Deaths Tied to Trump Admin Environmental 
-                  Rollbacks Amid Pandemic
-                </a>
-                <p class="mt-2">
-                  Public health and environmental experts say "there's 
-                  nobody watching" U.S. oil and gas companies along with 
-                  other leading pollutant operations after the industry 
-                  complained about being unable to do business during the lockdown.
-                </p>
-              </div>
-              <div class="border-bottom border-top py-3">
-                <img class="col-3 p-0 mr-3 float-left" src="./images/top-story/more_stories/president-donald-trump.webp" alt="showcase-image" />
-                <a class="mb-4 h6" href="#">
-                  Only 31% Approve of Trump's Coronavirus Response, 
-                  Poll Indicates
-                </a>
-                <p class="mt-2">
-                  While only 31 percent of Americans surveyed in a poll 
-                  released Monday approved of President Donald Trump's 
-                  response to the COVID-19 pandemic, 44 percent 
-                  approved in a poll taken by the same group in March.
-                </p>
-              </div>
-              <div class="border-bottom border-top py-3">
-                <img class="col-3 p-0 mr-3 float-left" src="./images/top-story/more_stories/south-china-sea-tensions-us-china-military.webp" alt="showcase-image" />
-                <a class="mb-4 h6" href="#">
-                  Beijing Holds Six Military Drills in a Week Amid South 
-                  China Sea Tensions
-                </a>
-                <p class="mt-2">
-                  The South China Sea remains tense amid disputes 
-                  regarding Beijing's territorial claims over the region's 
-                  busy shipping routes and potentially lucrative natural 
-                  resources.
-                </p>
-              </div>
-              <div class="border-bottom border-top py-3">
-                <img class="col-3 p-0 mr-3 float-left" src="./images/top-story/more_stories/tropical-storm-marco.webp" alt="showcase-image" />
-                <a class="mb-4 h6" href="#">
-                  Tropical Storms Marco and Laura Path, Tracker as 
-                  Hurricane Likely to Hit
-                </a>
-                <p class="mt-2">
-                  Louisiana is expected to be hit by two Tropical Storms 
-                  that will make landfall within days of each other.
-                </p>
-              </div>
-              <div class="border-top py-3">
-                <img class="col-3 p-0 mr-3 float-left" src="./images/top-story/more_stories/trump.webp" alt="showcase-image" />
-                <a class="mb-4 h6" href="#">
-                  RNC Lineup Lays Bare Trump's Split From Republican 
-                  Party's Past
-                </a>
-                <p class="mt-2">
-                  President Donald Trump touted his credentials as a 
-                  political outsider in 2016, and the 2020 RNC appears 
-                  unlikely to follow party precedent
-                </p>
-              </div>
-            </div>
-            
-            <div class="d-md-none order-last my-1 p-4 w-100">
-              <div class="row border mb-3 badge-light m-auto ">
-                <img class="w-25 col-2 my-3 pr-0" src="img/n.png" alt="Newsletter logo">
-                <h6 class="font-weight-bolder mt-3 pr-1 col-10">START YOUR DAY WITH OUR TOP 5 ARTICLES</h6>
-                <input class="border my-1 mx-3 p-1 w-100" type="email" name="email" placeholder="Email...">
-                <button type="submit" class="mt-1 p-1 mb-3 mx-3 border-0 text-white w-100 font-weight-bold bg-danger">
-                  FREE SIGN-UP >
-                </button>
-              </div>
-            </div>  
-          </div>
-
-          <!-- debate & opinion -->
-
-          <div class="bg-with p-3 col-12 col-lg order-2 order-md-3 debate">
-            <h3 class="title">
-              THE DEBATE
-            </h3>
-
-            <div class="position-relative mb-md-0 mb-4">
-
-              <article class="border-bottom row my-1 mx-1 py-3">
-                <div class="col-2 p-0">
-                  <div>
-                    <img src="./images/the_debate/greg-mitchell.webp" alt="greg" class="rounded-circle">
-                  </div>
-                </div>
-                <div class="col-10 ml-2 p-0 row flex-column">
-                  <a href="#" class="mb-1 responsive-font-size">U.S. Must End Nuclear 'First Strike' Policy</a>
-                  <span>BY <strong>Greg Mitchell</strong></span>
-                </div>
-              </article>
-
-              <span id="vs" class="position-absolute text-white p-1 rounded-circle">
-                VS
-              </span>
+        <article class="border-bottom row my-1 mx-1 py-3">
+          <div class="col-2 p-0">
+            <div>
+              <img src="./images/the_debate/greg-mitchell.webp" alt="greg" class="rounded-circle">
             </div>
           </div>
-</section>
+          <div class="col-10 ml-2 p-0 row flex-column">
+            <a href="#" class="mb-1 responsive-font-size">U.S. Must End Nuclear 'First Strike' Policy</a>
+            <span>BY <strong>Greg Mitchell</strong></span>
+          </div>
+
+        </article>
+
+        <article class="border-top row my-1 mx-1 py-3">
+          
+          <div class="col-10 ml-2 p-0 row flex-column">
+            <a href="#" class="mb-1 responsive-font-size">U.S. Must End Nuclear 'First Strike' Policy</a>
+            <span>BY <strong>rebeccah-heinrichs</strong></span>
+          </div>
+          <div class="col-2 p-0">
+            <div>
+              <img src="./images/the_debate/rebeccah-heinrichs.webp" alt="greg" class="rounded-circle">
+            </div>
+          </div>
+        
+        </article>
+
+        <span id="vs" class="position-absolute text-white p-1 rounded-circle">
+          VS
+        </span>
+      </div>
+
+      <!-- opinion -->
+      <div>
+        <h3 class="title py-3">OPINION</h3>
+
+        <article class="border-bottom row my-1 mx-1 py-3">
+          <div class="col-lg-2 col-md-1 col-2 p-0">
+            <div>
+              <img src="./images/the_debate/boris-zilberman.webp" alt="boris" class="rounded-circle">
+            </div>
+          </div >
+          <div class="col-lg-10 col-md-11 col-10 ml-2  p-0 row flex-column">
+            <a class="mb-1" href="#">
+              GOP Want to Punish Americans for Not Working—It Makes No Economic Sense
+            </a>
+            <span>BY <strong>Boris Zilberman</strong></span>
+          </div>
+        </article>
+
+        <article class="border-bottom row my-1 mx-1 py-3">
+          <div class="col-lg-2 col-md-1 col-2 p-0">
+            <div>
+              <img src="./images/the_debate/leo-terrell.webp" alt="boris" class="rounded-circle">
+            </div>
+          </div>
+          <div class="col-lg-10 col-md-11 col-10 ml-2  p-0 row flex-column">
+            <a class="mb-1" href="#">
+              GOP Want to Punish Americans for Not Working—It Makes No Economic Sense
+            </a>
+            <span>BY <strong>Leo Terrell</strong></span>
+          </div>
+        </article>
+
+        <article class="border-bottom row my-1 mx-1 py-3">
+          <div class="col-lg-2 col-md-1 col-2 p-0">
+            <div>
+              <img src="./images/the_debate/tony-badran.webp" alt="boris" class="rounded-circle">
+            </div>
+          </div>
+          <div class="col-lg-10 col-md-11 col-10 ml-2  p-0 row flex-column">
+            <a class="mb-1" href="#">
+              GOP Want to Punish Americans for Not Working—It Makes No Economic Sense
+            </a>
+            <span>BY <strong>Tony Bardan</strong></span>
+          </div>
+        </article>
+
+        <article class="border-bottom row my-1 mx-1 py-3">
+          <div class="col-lg-2 col-md-1 col-2 p-0">
+            <div>
+              <img src="./images/the_debate/robert-reich.webp" alt="boris" class="rounded-circle">
+            </div>
+          </div>
+          <div class="col-lg-10 col-md-11 col-10 ml-2  p-0 row flex-column">
+            <a class="mb-1" href="#">
+              GOP Want to Punish Americans for Not Working—It Makes No Economic Sense
+            </a>
+            <span>BY <strong>Robert Reich</strong></span>
+          </div>
+        </article>
+
+        <article class="border-bottom row my-1 mx-1 py-3">
+          <div class="col-lg-2 col-md-1 col-2 p-0">
+            <div>
+              <img src="./images/the_debate/hank-gilman.webp" alt="boris" class="rounded-circle">
+            </div>
+          </div>
+          <div class="col-lg-10 col-md-11 col-10 ml-2  p-0 row flex-column">
+            <a class="mb-1" href="#">
+              GOP Want to Punish Americans for Not Working—It Makes No Economic Sense
+            </a>
+            <span>BY <strong>Hank Gilman</strong></span>
+          </div>
+        </article>
+
+        <article class="border-bottom row my-1 mx-1 py-3">
+          <div class="col-lg-2 col-md-1 col-2 p-0">
+            <div>
+              <img src="./images/the_debate/sarah-kate.webp" alt="boris" class="rounded-circle">
+            </div>
+          </div>
+          <div class="col-lg-10 col-md-11 col-10 ml-2  p-0 row flex-column">
+            <a class="mb-1" href="#">
+              GOP Want to Punish Americans for Not Working—It Makes No Economic Sense
+            </a>
+            <span>BY <strong>Sarah Kate</strong></span>
+          </div>
+        </article>
+
+        <article class="border-bottom row my-1 mx-1 py-3">
+          <div class="col-lg-2 col-md-1 col-2 p-0">
+            <div>
+              <img src="./images/the_debate/abraham-cooper-johnnie-moore.webp" alt="boris" class="rounded-circle">
+            </div>
+          </div>
+          <div class="col-lg-10 col-md-11 col-10 ml-2  p-0 row flex-column">
+            <a class="mb-1" href="#">
+              GOP Want to Punish Americans for Not Working—It Makes No Economic Sense
+            </a>
+            <span>BY <strong>abraham-cooper-johnnie-moore</strong></span>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="d-none d-md-block order-last order-md-last my-1 p-4 p-lg-0 w-100 bg-white">
+        <div class="row border mb-3 badge-light  col-sm-6 col-lg-12 m-auto ">
+          <img class="w-25 col-2 my-3 pr-0" src="images/n.png" alt="Newsletter logo">
+          <h5 class="font-weight-bolder mt-3 pr-1 col-10">START YOUR DAY WITH OUR TOP 5 ARTICLES</h5>
+          <input class="border my-1 mx-3 p-1 w-100" type="email" name="email" placeholder="Email...">
+          <button type="submit" class="mt-1 p-1 mb-3 mx-3 border-0 text-white w-100 font-weight-bold bg-danger">
+            FREE SIGN-UP 
+          </button>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
 
 
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-      </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-      </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
-      </script>
-  </body>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+</body>
+
 </html>
