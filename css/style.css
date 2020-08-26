@@ -85,6 +85,11 @@ img {
   line-height: 1px;
 }
 
+.debate a {
+  font-size: 17px;
+  line-height: 21px;
+}
+
 #top ul li a:hover {
   color: var(--color-figcaption);
 }
@@ -100,4 +105,24 @@ figure figcaption {
   color: var(--color-figcaption);
   bottom: 0;
   left: 0;
+}
+
+.debate span {
+  font-size: 14px;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Alata', sans-serif;
+}
+
+.debate article:first-child {
+  border-bottom: 4px solid var(--color-grey);
+}
+
+.debate article:nth-child(2) {
+  border-bottom: 4px solid var(--color-grey);
+}
+
+#vs {
+  border-radius: 50%;
+  background-color: black;
+  left: calc(50% - 25px);
+  top: 43%;
 }
