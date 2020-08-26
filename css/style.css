@@ -118,3 +118,17 @@ figure figcaption {
   left: calc(50% - 25px);
   top: 43%;
 }
+
+.pic {
+  max-width: 30px;
+  max-height: 30px;
+}
+
+.magazine h5,
+.editor-pick h5 {
+  font-weight: bolder;
+}
+
+.magazine a {
+  line-height: 20px;
+}
