@@ -67,3 +67,21 @@ img {
 #top ul li a:hover {
   color: var(--color-figcaption);
 }
+
+.title {
+  color: var(--color-grey);
+  font-weight: bold;
+  font-size: 14px;
+}
+
+figure figcaption {
+  background: var(--bg-figcaption);
+  color: var(--color-figcaption);
+  bottom: 0;
+  left: 0;
+}
+
+.card a {
+  font-size: 24px;
+  line-height: 1px;
+}
