@@ -35,6 +35,18 @@
   border: none;
 }
 
+.search-me:active ~ .medium-nav-items,
+.search-Me:focus ~ .medium-nav-items {
+  display: none;
+  width: 100%;
+}
+
+.search-Me:active,
+.search-Me:focus {
+  width: 100%;
+  border: none;
+}
+
 p {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -42,6 +54,10 @@ p {
 a {
   text-decoration: none;
   color: black;
+}
+
+a:hover {
+  color: #f72210;
 }
 
 body {
@@ -64,6 +80,11 @@ img {
   object-fit: unset;
 }
 
+.card a {
+  font-size: 24px;
+  line-height: 1px;
+}
+
 #top ul li a:hover {
   color: var(--color-figcaption);
 }
@@ -79,9 +100,4 @@ figure figcaption {
   color: var(--color-figcaption);
   bottom: 0;
   left: 0;
-}
-
-.card a {
-  font-size: 24px;
-  line-height: 1px;
 }
