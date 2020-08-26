@@ -64,6 +64,6 @@ img {
   object-fit: unset;
 }
 
-a:hover {
+#top ul li a:hover {
   color: var(--color-figcaption);
 }
