@@ -4,7 +4,7 @@
 
 > This project is a mock-up page of the Newsweek website.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./images/screenshot.png)
 
 This project uses the bootstrap framework to build a replica of the newsweek site.
 
