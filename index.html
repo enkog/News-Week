@@ -21,11 +21,11 @@
 <body class="container-fluid">
   <!-- top-nav-bar-->
   <header>
-    <nav id="top" class="row justify-content-between text-white py-2">
+    <nav id="top" class="row justify-content-between text-white py-2 justify-content-fixed">
 
       <!-- weather -->
-      <div class="weather col-lg-3 py3 d-none d-lg-block">
-        <div>
+      <div class="weather col-lg-3 py-3 d-none d-lg-block">
+        <div class="mb-3">
           <a href="#" class="text-white">
             <i class="fas fa-cloud-sun-rain"></i><span> 45°</span><span> Fes, Morocco</span>
           </a>
@@ -42,7 +42,7 @@
 
       <!-- login & subscribe -->
 
-      <div class="col-lg-3 col-md-6 col-6 d-flex align-items-center justify-content-end">
+      <div class="col-lg-3 col-md-6 col-6 d-flex align-items-center justify-content-end pt-4">
         <i class="fas fa-user fa-md-2x d-md-none"></i>
         <button type="submit"
           class="display-5 font-weight-bolder m-0 bg-transparent border-0 text-white d-none d-md-block">
@@ -161,7 +161,7 @@
       <h3 class="title text-uppercase">
         FEATURED STORIES
       </h3>
-      
+
       <div class="card border-0 mb-3">
         <figure class="position-relative">
           <img src="./images/featurd_story/jerry-falwell-jr.webp" alt="Jerry_Falwell w-100" />
@@ -170,7 +170,7 @@
           </figcaption>
         </figure>
         <a class="mb-2" href="#">Supreme Court Allows Trump to Use Pentagon Funds to
-        Build Border Wall</a>
+          Build Border Wall</a>
         <p class="text-dark h6">
           Jerry Falwell, Jr., a longtime supporter of
           President Donald Trump, resigned from his
@@ -317,9 +317,9 @@
         <h3 class="title p-1">CULTURE AND TRAVEL</h3>
         <div class="d-md-flex">
           <div class="card border-0 px-0 col-md-4">
-            <figure class="position-relative">
+            <figure class="position-relative pr-1">
               <img src="./images/top-story/culter_&_travel/amtrak.webp" alt="amtrak" class="w-100">
-              <figcaption class="position-absolute text-center fixed-bottom bg-info text-dark w-50">
+              <figcaption class="position-absolute text-center fixed-bottom bg-info text-dark w-50 ">
                 AMTRAK
               </figcaption>
             </figure>
@@ -331,9 +331,10 @@
           </div>
 
           <div class="card border-0 px-0 col-md-4">
-            <figure class="position-relative">
+            <figure class="position-relative pr-1">
               <img src="./images/top-story/culter_&_travel/central-park-monument.webp" alt="central park" class="w-100">
-              <figcaption class="position-absolute text-center text-xsmall fixed-bottom bg-info text-dark w-75">WOMEN'S RIGHT
+              <figcaption class="position-absolute text-center text-xsmall fixed-bottom bg-info text-dark w-50">WOMEN'S
+                RIGHT
               </figcaption>
             </figure>
             <p class="title mt-2">
@@ -345,7 +346,7 @@
           </div>
 
           <div class="card border-0 px-0 col-md-4">
-            <figure class="position-relative">
+            <figure class="position-relative pr-1">
               <img src="./images/top-story/culter_&_travel/delta-airlines.webp" alt="airlines" class="w-100">
               <figcaption class="position-absolute text-center fixed-bottom bg-info text-dark w-50">
                 TRAVEL
@@ -567,7 +568,7 @@
         </article>
 
         <article class="border-top row my-1 mx-1 py-3">
-          
+
           <div class="col-10 ml-2 p-0 row flex-column">
             <a href="#" class="mb-1 responsive-font-size">U.S. Must End Nuclear 'First Strike' Policy</a>
             <span>BY <strong>rebeccah-heinrichs</strong></span>
@@ -577,7 +578,7 @@
               <img src="./images/the_debate/rebeccah-heinrichs.webp" alt="greg" class="rounded-circle">
             </div>
           </div>
-        
+
         </article>
 
         <span id="vs" class="position-absolute text-white p-1 rounded-circle">
@@ -594,7 +595,7 @@
             <div>
               <img src="./images/the_debate/boris-zilberman.webp" alt="boris" class="rounded-circle">
             </div>
-          </div >
+          </div>
           <div class="col-lg-10 col-md-11 col-10 ml-2  p-0 row flex-column">
             <a class="mb-1" href="#">
               GOP Want to Punish Americans for Not Working—It Makes No Economic Sense
@@ -695,7 +696,7 @@
           <h5 class="font-weight-bolder mt-3 pr-1 col-10">START YOUR DAY WITH OUR TOP 5 ARTICLES</h5>
           <input class="border my-1 mx-3 p-1 w-100" type="email" name="email" placeholder="Email...">
           <button type="submit" class="mt-1 p-1 mb-3 mx-3 border-0 text-white w-100 font-weight-bold bg-danger">
-            FREE SIGN-UP 
+            FREE SIGN-UP
           </button>
         </div>
       </div>
@@ -704,321 +705,329 @@
 
   <section class="magazine">
     <div class="border-bottom bg-white d-flex justify-content-center pb-3">
-       <div class="d-flex justify-content-center">
-           <img src="./images/n.png" alt="newsweek logo" class="pic w-25 mr-2">
-           <h5 class="align-self-center">IN THE MAGAZINE</h5>
-       </div>
+      <div class="d-flex justify-content-center">
+        <img src="./images/n.png" alt="newsweek logo" class="pic w-25 mr-2">
+        <h5 class="align-self-center">IN THE MAGAZINE</h5>
+      </div>
     </div>
 
     <div class="row pt-3 bg-white">
-        <div class="card border-0 mb-3 col-md-3">
-            <figure class="position-relative mb-0">
-                <img src="./images/the_magazine/cover-august-21-28-2020.jpg" alt="cover" class="w-100 p-0 mb-0">
-                <figcaption class="position-absolute text-nowrap p-1 my-0">AUGUST 21 ISSUE</figcaption>
-            </figure>
-            <button type="submit" class="border-0 outline-none w-100 my-0 p-2 btn-light">
-                SEE ALL FEATURES >
-            </button>
-        </div>
+      <div class="card border-0 mb-3 col-md-3">
+        <figure class="position-relative mb-0">
+          <img src="./images/the_magazine/cover-august-21-28-2020.jpg" alt="cover" class="w-100 p-0 mb-0">
+          <figcaption class="position-absolute text-nowrap p-1 my-0">AUGUST 21 ISSUE</figcaption>
+        </figure>
+        <button type="submit" class="border-0 outline-none w-100 my-0 p-2 btn-light ">
+          <strong>SEE ALL FEATURES ></strong>
+        </button>
+      </div>
 
-        <div class="card border-0 mb-3 col-md-3">
-            <figure class="position-relative h-75 pt-2 mb-0">
-                <img src="./images/the_magazine/cover-august-21-28-2020.webp" alt="cover">
-                <figcaption class="position-absolute fixed-bottom text-nowrap w-100 bg-white my-0 p-1">
-                    <span class="bg-danger text-white p-1">COVER</span><span class="text-danger p-1">HEALTH</span>
-                </figcaption>
-            </figure>
-            <a href="#">
-                How the Pandemic Is Making the 
-                Opioid Crisis Worse
-            </a>
-        </div>
+      <div class="card border-0 mb-3 col-md-3">
+        <figure class="position-relative h-75 pt-2 mb-0">
+          <img src="./images/the_magazine/cover-august-21-28-2020.webp" alt="cover">
+          <figcaption class="position-absolute fixed-bottom text-nowrap w-100 bg-white my-0 p-1">
+            <span class="bg-danger text-white p-0 mt-1">COVER</span><span class="text-danger p-1">HEALTH</span>
+          </figcaption>
+        </figure>
+        <a href="#">
+          How the Pandemic Is Making the
+          Opioid Crisis Worse
+        </a>
+      </div>
 
-        <div class="card border-0 mb-3 col-md-3">
-            <figure class="position-relative h-75 pt-2 mb-0">
-                <img src="./images/the_magazine/per-going-back-01-1220587865.webp" alt="periscope cover">
-                <figcaption class="position-absolute fixed-bottom text-nowrap w-100 bg-white my-0 p-1">
-                    <span class="bg-danger text-white p-1">PERISCOPE</span><span class="text-danger p-1">BUSINESS</span>
-                </figcaption>
-            </figure>
-            <a href="#">
-                What to Do If Work Calls You Back 
-                to the Office and You're Not Ready 
-                to Go
-            </a>
-        </div>
+      <div class="card border-0 mb-3 col-md-3">
+        <figure class="position-relative h-75 pt-2 mb-0">
+          <img src="./images/the_magazine/per-going-back-01-1220587865.webp" alt="periscope cover">
+          <figcaption class="position-absolute fixed-bottom text-nowrap w-100 bg-white my-0 p-1">
+            <span class="bg-danger text-white p-0 mt-1">PERISCOPE</span><span class="text-danger p-1">BUSINESS</span>
+          </figcaption>
+        </figure>
+        <a href="#">
+          What to Do If Work Calls You Back
+          to the Office and You're Not Ready
+          to Go
+        </a>
+      </div>
 
-        <div class="card border-0 mb-3 col-md-3">
-            <figure class="position-relative h-75 pt-2 mb-0">
-                <img src="./images/the_magazine/cul-kylie-coutts-banner.webp" alt="cover">
-                <figcaption class="position-absolute fixed-bottom text-nowrap w-100 bg-white my-0 p-1">
-                    <span class="bg-danger text-white p-1">DOWNTIME</span><span class="text-danger p-1">CULTURE</span>
-                </figcaption>
-            </figure>
-            <a href="#">
-                Angel Olsen Goes Solo on 'Whole 
-                New Mess'
-            </a>
-        </div>
+      <div class="card border-0 mb-3 col-md-3">
+        <figure class="position-relative h-75 pt-2 mb-0">
+          <img src="./images/the_magazine/cul-kylie-coutts-banner.webp" alt="cover">
+          <figcaption class="position-absolute fixed-bottom text-nowrap w-100 bg-white my-0 p-1">
+            <span class="bg-danger text-white p-0 mt-1">DOWNTIME</span><span class="text-danger p-1">CULTURE</span>
+          </figcaption>
+        </figure>
+        <a href="#">
+          Angel Olsen Goes Solo on 'Whole
+          New Mess'
+        </a>
+      </div>
 
-        <div class="card border-0 mb-3 col-md-3">
-            <figure class="position-relative h-75 pt-2 mb-0">
-                <img src="./images/the_magazine/zach-king.webp" alt="cover">
-                <figcaption class="position-absolute fixed-bottom text-nowrap w-100 bg-white my-0 p-1">
-                    <span class="bg-danger text-white p-1">DOWNTIME</span><span class="text-danger p-1">CULTURE</span>
-                </figcaption>
-            </figure>
-            <a href="#">
-                If TikTok is Banned, We Move to 
-                the Next Big Thing, Zach King Says
-            </a>
-        </div>
+      <div class="card border-0 mb-3 col-md-3">
+        <figure class="position-relative h-75 pt-2 mb-0">
+          <img src="./images/the_magazine/zach-king.webp" alt="cover">
+          <figcaption class="position-absolute fixed-bottom text-nowrap w-100 bg-white my-0 p-1">
+            <span class="bg-danger text-white p-0 mt-1">DOWNTIME</span><span class="text-danger p-1">CULTURE</span>
+          </figcaption>
+        </figure>
+        <a href="#">
+          If TikTok is Banned, We Move to
+          the Next Big Thing, Zach King Says
+        </a>
+      </div>
 
-        <div class="card border-0 mb-3 col-md-3">
-            <figure class="position-relative h-75 pt-2 mb-0">
-                <img src="./images/the_magazine/cover-august-21-28-2020.webp" alt="cover">
-                <figcaption class="position-absolute fixed-bottom text-nowrap w-100 bg-white my-0 p-1">
-                    <span class="bg-danger text-white p-1">COVER</span><span class="text-danger p-1">HEALTH</span>
-                </figcaption>
-            </figure>
-            <a href="#">
-                How the Pandemic Is Making the 
-                Opioid Crisis Worse
-            </a>
-        </div>
+      <div class="card border-0 mb-3 col-md-3">
+        <figure class="position-relative h-75 pt-2 mb-0">
+          <img src="./images/the_magazine/cover-august-21-28-2020.webp" alt="cover">
+          <figcaption class="position-absolute fixed-bottom text-nowrap w-100 bg-white my-0 p-1">
+            <span class="bg-danger text-white p-0 mt-1">COVER</span><span class="text-danger p-1">HEALTH</span>
+          </figcaption>
+        </figure>
+        <a href="#">
+          How the Pandemic Is Making the
+          Opioid Crisis Worse
+        </a>
+      </div>
     </div>
   </section>
 
   <section class="editor-pick">
     <div class="border-bottom bg-white d-flex justify-content-center pb-3">
-        <div class="d-flex justify-content-center">
-            <img src="./images/n.png" alt="newsweek logo" class="pic w-25 mr-2">
-            <h5 class="align-self-center">EDITOR'S PICK</h5>
-        </div>
-     </div>
+      <div class="d-flex justify-content-center">
+        <img src="./images/n.png" alt="newsweek logo" class="pic w-25 mr-2">
+        <h5 class="align-self-center">EDITOR'S PICK</h5>
+      </div>
+    </div>
 
-     <div class="row bg-white">
-        <div class="card border-0 my-3 col-lg-3 col-md-6">
-            <figure class="position-relative mb-0 w-100">
-                <img src="./images/the_editor_pik/nasa-image-asteroid-eros-february-2000.webp" alt="Nasa asteroid" class="w-100 h-100 p-0 mb-0 img-fluid">
-                <figcaption class="position-absolute text-nowrap p-1 my-0">NEWS</figcaption>
-            </figure>
-            <a href="#">
-                NASA Plots Potential 
-                Impacts of Asteroid Aimed at 
-                Earth Before Election
-            </a>
-            <p>
-                The chance of the asteroid hitting the 
-                Earth was reported to be 0.41 percent, 
-                according to NASA.
-            </p>
-        </div>
+    <div class="row bg-white">
+      <div class="card border-0 my-3 col-lg-3 col-md-6">
+        <figure class="position-relative mb-0 w-100">
+          <img src="./images/the_editor_pik/nasa-image-asteroid-eros-february-2000.webp" alt="Nasa asteroid"
+            class="w-100 h-100 p-0 mb-0 img-fluid">
+          <figcaption class="position-absolute text-nowrap p-1 my-0">NEWS</figcaption>
+        </figure>
+        <a href="#">
+          NASA Plots Potential
+          Impacts of Asteroid Aimed at
+          Earth Before Election
+        </a>
+        <p>
+          The chance of the asteroid hitting the
+          Earth was reported to be 0.41 percent,
+          according to NASA.
+        </p>
+      </div>
 
-        <div class="card border-0 my-3 col-lg-3 col-md-6">
-            <figure class="position-relative mb-0 w-100">
-                <img src="./images/the_editor_pik/donald-trump.webp" alt="Nasa asteroid" class="w-100 h-100 p-0 mb-0 img-fluid">
-                <figcaption class="position-absolute text-nowrap p-1 my-0">TECH & SCIENCE</figcaption>
-            </figure>
-            <a href="#">
-                NASA Plots Potential 
-                Impacts of Asteroid Aimed at 
-                Earth Before Election
-            </a>
-            <p>
-                The chance of the asteroid hitting the 
-                Earth was reported to be 0.41 percent, 
-                according to NASA.
-            </p>
-        </div>
+      <div class="card border-0 my-3 col-lg-3 col-md-6">
+        <figure class="position-relative mb-0 w-100">
+          <img src="./images/the_editor_pik/donald-trump.webp" alt="Nasa asteroid"
+            class="w-100 h-100 p-0 mb-0 img-fluid">
+          <figcaption class="position-absolute text-nowrap p-1 my-0">TECH & SCIENCE</figcaption>
+        </figure>
+        <a href="#">
+          NASA Plots Potential
+          Impacts of Asteroid Aimed at
+          Earth Before Election
+        </a>
+        <p>
+          The chance of the asteroid hitting the
+          Earth was reported to be 0.41 percent,
+          according to NASA.
+        </p>
+      </div>
 
-        <div class="card border-0 my-3 col-lg-3 col-md-6">
-            <figure class="position-relative mb-0 w-100">
-                <img src="./images/the_editor_pik/jacob-blake.webp" alt="Nasa asteroid" class="w-100 h-100 p-0 mb-0 img-fluid">
-                <figcaption class="position-absolute text-nowrap p-1 my-0">U.S.</figcaption>
-            </figure>
-            <a href="#">
-                NASA Plots Potential 
-                Impacts of Asteroid Aimed at 
-                Earth Before Election
-            </a>
-            <p>
-                The chance of the asteroid hitting the 
-                Earth was reported to be 0.41 percent, 
-                according to NASA.
-            </p>
-        </div>
+      <div class="card border-0 my-3 col-lg-3 col-md-6">
+        <figure class="position-relative mb-0 w-100">
+          <img src="./images/the_editor_pik/jacob-blake.webp" alt="Nasa asteroid"
+            class="w-100 h-100 p-0 mb-0 img-fluid">
+          <figcaption class="position-absolute text-nowrap p-1 my-0">U.S.</figcaption>
+        </figure>
+        <a href="#">
+          NASA Plots Potential
+          Impacts of Asteroid Aimed at
+          Earth Before Election
+        </a>
+        <p>
+          The chance of the asteroid hitting the
+          Earth was reported to be 0.41 percent,
+          according to NASA.
+        </p>
+      </div>
 
-        <div class="card border-0 my-3 col-lg-3 col-md-6">
-            <figure class="position-relative mb-0 w-100">
-                <img src="./images/the_editor_pik/navalny-ambulance.webp" alt="Nasa asteroid" class="w-100 h-100 p-0 mb-0 img-fluid">
-                <figcaption class="position-absolute text-nowrap p-1 my-0">U.S.</figcaption>
-            </figure>
-            <a href="#">
-                NASA Plots Potential 
-                Impacts of Asteroid Aimed at 
-                Earth Before Election
-            </a>
-            <p>
-                The chance of the asteroid hitting the 
-                Earth was reported to be 0.41 percent, 
-                according to NASA.
-            </p>
-        </div>
+      <div class="card border-0 my-3 col-lg-3 col-md-6">
+        <figure class="position-relative mb-0 w-100">
+          <img src="./images/the_editor_pik/navalny-ambulance.webp" alt="Nasa asteroid"
+            class="w-100 h-100 p-0 mb-0 img-fluid">
+          <figcaption class="position-absolute text-nowrap p-1 my-0">U.S.</figcaption>
+        </figure>
+        <a href="#">
+          NASA Plots Potential
+          Impacts of Asteroid Aimed at
+          Earth Before Election
+        </a>
+        <p>
+          The chance of the asteroid hitting the
+          Earth was reported to be 0.41 percent,
+          according to NASA.
+        </p>
+      </div>
 
-        <div class="card border-0 my-3 col-lg-3 col-md-6">
-            <figure class="position-relative mb-0 w-100">
-                <img src="./images/the_editor_pik/trump_(1).webp" alt="Nasa asteroid" class="w-100 h-100 p-0 mb-0 img-fluid">
-                <figcaption class="position-absolute text-nowrap p-1 my-0">WORLD</figcaption>
-            </figure>
-            <a href="#">
-                NASA Plots Potential 
-                Impacts of Asteroid Aimed at 
-                Earth Before Election
-            </a>
-            <p>
-                The chance of the asteroid hitting the 
-                Earth was reported to be 0.41 percent, 
-                according to NASA.
-            </p>
-        </div>
+      <div class="card border-0 my-3 col-lg-3 col-md-6">
+        <figure class="position-relative mb-0 w-100">
+          <img src="./images/the_editor_pik/trump_(1).webp" alt="Nasa asteroid" class="w-100 h-100 p-0 mb-0 img-fluid">
+          <figcaption class="position-absolute text-nowrap p-1 my-0">WORLD</figcaption>
+        </figure>
+        <a href="#">
+          NASA Plots Potential
+          Impacts of Asteroid Aimed at
+          Earth Before Election
+        </a>
+        <p>
+          The chance of the asteroid hitting the
+          Earth was reported to be 0.41 percent,
+          according to NASA.
+        </p>
+      </div>
 
-        <div class="card border-0 my-3 col-lg-3 col-md-6">
-            <figure class="position-relative mb-0 w-100">
-                <img src="./images/the_editor_pik/italy-migrants-quarantine-ship.webp" alt="Nasa asteroid" class="w-100 h-100 p-0 mb-0 img-fluid">
-                <figcaption class="position-absolute text-nowrap p-1 my-0">NEWS</figcaption>
-            </figure>
-            <a href="#">
-                NASA Plots Potential 
-                Impacts of Asteroid Aimed at 
-                Earth Before Election
-            </a>
-            <p>
-                The chance of the asteroid hitting the 
-                Earth was reported to be 0.41 percent, 
-                according to NASA.
-            </p>
-        </div>
+      <div class="card border-0 my-3 col-lg-3 col-md-6">
+        <figure class="position-relative mb-0 w-100">
+          <img src="./images/the_editor_pik/italy-migrants-quarantine-ship.webp" alt="Nasa asteroid"
+            class="w-100 h-100 p-0 mb-0 img-fluid">
+          <figcaption class="position-absolute text-nowrap p-1 my-0">NEWS</figcaption>
+        </figure>
+        <a href="#">
+          NASA Plots Potential
+          Impacts of Asteroid Aimed at
+          Earth Before Election
+        </a>
+        <p>
+          The chance of the asteroid hitting the
+          Earth was reported to be 0.41 percent,
+          according to NASA.
+        </p>
+      </div>
 
-        <div class="card border-0 my-3 col-lg-3 col-md-6">
-            <figure class="position-relative mb-0 w-100">
-                <img src="./images/the_editor_pik/belarus-military-drills-border-unrest.webp" alt="Nasa asteroid" class="w-100 h-100 p-0 mb-0 img-fluid">
-                <figcaption class="position-absolute text-nowrap p-1 my-0">HEALTH</figcaption>
-            </figure>
-            <a href="#">
-                NASA Plots Potential 
-                Impacts of Asteroid Aimed at 
-                Earth Before Election
-            </a>
-            <p>
-                The chance of the asteroid hitting the 
-                Earth was reported to be 0.41 percent, 
-                according to NASA.
-            </p>
-        </div>
+      <div class="card border-0 my-3 col-lg-3 col-md-6">
+        <figure class="position-relative mb-0 w-100">
+          <img src="./images/the_editor_pik/belarus-military-drills-border-unrest.webp" alt="Nasa asteroid"
+            class="w-100 h-100 p-0 mb-0 img-fluid">
+          <figcaption class="position-absolute text-nowrap p-1 my-0">HEALTH</figcaption>
+        </figure>
+        <a href="#">
+          NASA Plots Potential
+          Impacts of Asteroid Aimed at
+          Earth Before Election
+        </a>
+        <p>
+          The chance of the asteroid hitting the
+          Earth was reported to be 0.41 percent,
+          according to NASA.
+        </p>
+      </div>
 
-        <div class="card border-0 my-3 col-lg-3 col-md-6">
-            <figure class="position-relative mb-0 w-100">
-                <img src="./images/the_editor_pik/postal-vote.webp" alt="Nasa asteroid" class="w-100 h-100 p-0 mb-0 img-fluid">
-                <figcaption class="position-absolute text-nowrap p-1 my-0">COLTURE</figcaption>
-            </figure>
-            <a href="#">
-                NASA Plots Potential 
-                Impacts of Asteroid Aimed at 
-                Earth Before Election
-            </a>
-            <p>
-                The chance of the asteroid hitting the 
-                Earth was reported to be 0.41 percent, 
-                according to NASA.
-            </p>
-        </div>
-     </div>
-      
+      <div class="card border-0 my-3 col-lg-3 col-md-6">
+        <figure class="position-relative mb-0 w-100">
+          <img src="./images/the_editor_pik/postal-vote.webp" alt="Nasa asteroid"
+            class="w-100 h-100 p-0 mb-0 img-fluid">
+          <figcaption class="position-absolute text-nowrap p-1 my-0">COLTURE</figcaption>
+        </figure>
+        <a href="#">
+          NASA Plots Potential
+          Impacts of Asteroid Aimed at
+          Earth Before Election
+        </a>
+        <p>
+          The chance of the asteroid hitting the
+          Earth was reported to be 0.41 percent,
+          according to NASA.
+        </p>
+      </div>
+    </div>
+
   </section>
 
   <section class="row bg-white border-top flex-column">
-    <h4 class="red col-12">
+    <h4 class="red col-12 pt-4">
       U.S.
     </h4>
-  
+
     <div class="row mb-3 m-0">
-  
+
       <div class="col-md-4">
-  
+
         <div class="card border-0 mb-3 order-first">
           <figure class="position-relative">
-            <img src="./images/us/university-alabama-covid-19-coronavirus-cases.webp" alt="police-image" class="w-100" />
+            <img src="./images/us/university-alabama-covid-19-coronavirus-cases.webp" alt="police-image"
+              class="w-100" />
           </figure>
           <a class="mb-2" href="#">
-            University of Alabama Reports 
-            566 COVID-19 Cases a Week 
+            University of Alabama Reports
+            566 COVID-19 Cases a Week
             After Classes Start
           </a>
         </div>
       </div>
-  
+
       <div class="col-md-4">
-  
+
         <div class="card border-0 mb-3 order-first">
           <figure class="position-relative">
             <img src="./images/us/donald-trump-jr.webp" alt="police-image" class="w-100" />
           </figure>
           <a class="mb-2" href="#">
-            Donald Trump Jr. Calls Joe Biden 
-            the 'Loch Ness Monster of the 
+            Donald Trump Jr. Calls Joe Biden
+            the 'Loch Ness Monster of the
             Swamp'
           </a>
         </div>
       </div>
-  
+
       <div class="col-md-4">
-  
+
         <article class="border-bottom pb-4 d-flex">
           <div class="col-md-5 col-lg-3 col-3 p-0 pb-md-5 pb-0 h-md-50">
             <img src="./images/us/republican-national-convention-mark-patty-mccloskey.webp" alt="avatar" />
           </div>
           <div class="col-md-7 col-lg-9">
             <a href="#" class="h6">
-                At RNC, Gun-Toting St. Louis Couple Says Dems Want to Destroy Suburbs
+              At RNC, Gun-Toting St. Louis Couple Says Dems Want to Destroy Suburbs
             </a>
           </div>
         </article>
-  
+
         <article class="border-bottom py-4 d-flex">
           <div class="col-md-5 col-lg-3 col-3 p-0 pb-md-5 pb-0 h-md-50">
             <img src="./images/us/hershel-walker-donald-trump.webp" alt="avatar" />
           </div>
           <div class='col-md-7 col-lg-9'>
             <a href="#">
-                Herschel Walker Feels 'Insulted' When People Call Donald Trump 'Racist'
+              Herschel Walker Feels 'Insulted' When People Call Donald Trump 'Racist'
             </a>
           </div>
         </article>
-  
+
         <article class="py-4 d-flex">
           <div class="col-md-5 col-lg-3 col-3 p-0 pb-md-5 pb-0 h-md-50">
             <img src="./images/us/ohio-state-university-covid-19-coronavirus-suspensions.webp" alt="avatar" />
           </div>
           <div class="col-md-7 col-lg-9">
             <a href="#">
-                Nearly 230 Ohio State Students Suspended For Attending Large Parties
+              Nearly 230 Ohio State Students Suspended For Attending Large Parties
             </a>
           </div>
         </article>
       </div>
-    </div>  
+    </div>
   </section>
 
   <section class="row bg-white border-top flex-column">
-    <h4 class="red col-12">
+    <h4 class="red col-12 pt-4">
       WORLD
     </h4>
-  
+
     <div class="row mb-3 m-0">
-  
+
       <div class="col-md-4">
-  
+
         <div class="card border-0 mb-3 order-first">
           <figure class="position-relative">
             <img src="./images/world/cap-dagde-resort-southern-france.webp" alt="police-image" class="w-100" />
@@ -1028,9 +1037,9 @@
           </a>
         </div>
       </div>
-  
+
       <div class="col-md-4">
-  
+
         <div class="card border-0 mb-3 order-first">
           <figure class="position-relative">
             <img src="./images/world/peru-nightclub-raid.webp" alt="police-image" class="w-100" />
@@ -1040,38 +1049,38 @@
           </a>
         </div>
       </div>
-  
+
       <div class="col-md-4">
-  
+
         <article class="border-bottom pb-4 d-flex">
           <div class="col-md-5 col-lg-3 col-3 p-0 pb-md-5 pb-0 h-md-50">
             <img src="./images/world/kim-jong-un-coma-rumors-north-korea.webp" alt="avatar" />
           </div>
           <div class="col-md-7 col-lg-9">
             <a href="#" class="h6">
-                Kim Jong Un Coma Rumors Spread Despite Recent Photos of North Korea Despot
+              Kim Jong Un Coma Rumors Spread Despite Recent Photos of North Korea Despot
             </a>
           </div>
         </article>
-  
+
         <article class="border-bottom py-4 d-flex">
           <div class="col-md-5 col-lg-3 col-3 p-0 pb-md-5 pb-0 h-md-50">
             <img src="./images/world/british-flag.webp" alt="avatar" />
           </div>
           <div class='col-md-7 col-lg-9'>
             <a href="#">
-                BBC Considers Cutting Anthems From Music Program Due to Perceived Racism
+              BBC Considers Cutting Anthems From Music Program Due to Perceived Racism
             </a>
           </div>
         </article>
-  
+
         <article class="py-4 d-flex">
           <div class="col-md-5 col-lg-3 col-3 p-0 pb-md-5 pb-0 h-md-50">
             <img src="./images/world/ukrainian-airlines-plane-crash-tehran-iran-2020.webp" alt="avatar" />
           </div>
           <div class="col-md-7 col-lg-9">
             <a href="#">
-                Ukrainian Flight Recordings Reveal Passengers Alive After First Missile Hit
+              Ukrainian Flight Recordings Reveal Passengers Alive After First Missile Hit
             </a>
           </div>
         </article>
@@ -1080,26 +1089,27 @@
   </section>
 
   <section class="row bg-white border-top flex-column">
-    <h4 class="red col-12">
+    <h4 class="red col-12 pt-4">
       business
     </h4>
-  
+
     <div class="row mb-3 m-0">
-  
+
       <div class="col-md-4">
-  
+
         <div class="card border-0 mb-3 order-first">
           <figure class="position-relative">
-            <img src="./images/business/coronavirus-impact-washington-dc-unemployment-2020.webp" alt="police-image" class="w-100" />
+            <img src="./images/business/coronavirus-impact-washington-dc-unemployment-2020.webp" alt="police-image"
+              class="w-100" />
           </figure>
           <a class="mb-2" href="#">
             Roughly 4 Million Employees to Remain Unemployed Amid Pandemic
           </a>
         </div>
       </div>
-  
+
       <div class="col-md-4">
-  
+
         <div class="card border-0 mb-3 order-first">
           <figure class="position-relative">
             <img src="./images/business/zenni-geometric-translucent-optical.webp" alt="police-image" class="w-100" />
@@ -1109,38 +1119,38 @@
           </a>
         </div>
       </div>
-  
+
       <div class="col-md-4">
-  
+
         <article class="border-bottom pb-4 d-flex">
           <div class="col-md-5 col-lg-3 col-3 p-0 pb-md-5 pb-0 h-md-50">
             <img src="./images/business/walmart-store-front.webp" alt="avatar" />
           </div>
           <div class="col-md-7 col-lg-9">
             <a href="#" class="h6">
-                As Walmart Warns Over Stimulus Checks, Target Plays Down Effect on Consumer
+              As Walmart Warns Over Stimulus Checks, Target Plays Down Effect on Consumer
             </a>
           </div>
         </article>
-  
+
         <article class="border-bottom py-4 d-flex">
           <div class="col-md-5 col-lg-3 col-3 p-0 pb-md-5 pb-0 h-md-50">
             <img src="./images/business/donald-trump-speech.webp" alt="avatar" />
           </div>
           <div class='col-md-7 col-lg-9'>
             <a href="#">
-                General Motors, Microsoft Shrug Off Trump Cash Offer to Quit China for U.S.
+              General Motors, Microsoft Shrug Off Trump Cash Offer to Quit China for U.S.
             </a>
           </div>
         </article>
-  
+
         <article class="py-4 d-flex">
           <div class="col-md-5 col-lg-3 col-3 p-0 pb-md-5 pb-0 h-md-50">
             <img src="./images/business/elon-musk.webp" alt="avatar" />
           </div>
           <div class="col-md-7 col-lg-9">
             <a href="#">
-                Elon Musk's Wealth Is Heading for $100 Billion. But What Is He Really Worth
+              Elon Musk's Wealth Is Heading for $100 Billion. But What Is He Really Worth
             </a>
           </div>
         </article>
@@ -1149,14 +1159,14 @@
   </section>
 
   <section class="row bg-white border-top flex-column">
-    <h4 class="red col-12">
+    <h4 class="red col-12 pt-4">
       TECH & SCIENCE
     </h4>
-  
+
     <div class="row mb-3 m-0">
-  
+
       <div class="col-md-4">
-  
+
         <div class="card border-0 mb-3 order-first">
           <figure class="position-relative">
             <img src="./images/tech_and_science/zoom.webp" alt="police-image" class="w-100" />
@@ -1166,9 +1176,9 @@
           </a>
         </div>
       </div>
-  
+
       <div class="col-md-4">
-  
+
         <div class="card border-0 mb-3 order-first">
           <figure class="position-relative">
             <img src="./images/tech_and_science/shi-zhengli.webp" alt="police-image" class="w-100" />
@@ -1178,66 +1188,67 @@
           </a>
         </div>
       </div>
-  
+
       <div class="col-md-4">
-  
+
         <article class="border-bottom pb-4 d-flex">
           <div class="col-md-5 col-lg-3 col-3 p-0 pb-md-5 pb-0 h-md-50">
             <img src="./images/tech_and_science/tropical-storm-laura.webp" alt="avatar" />
           </div>
           <div class="col-md-7 col-lg-9">
             <a href="#" class="h6">
-                What Is the Fujiwhara Effect? Will Storm Laura and TD 14 Collide Next Week?
+              What Is the Fujiwhara Effect? Will Storm Laura and TD 14 Collide Next Week?
             </a>
           </div>
         </article>
-  
+
         <article class="border-bottom py-4 d-flex">
           <div class="col-md-5 col-lg-3 col-3 p-0 pb-md-5 pb-0 h-md-50">
             <img src="./images/tech_and_science/hurricane-genevieve.webp" alt="avatar" />
           </div>
           <div class='col-md-7 col-lg-9'>
             <a href="#">
-                NASA Photo Shows Spectacular, Swirling Storm Genevieve
+              NASA Photo Shows Spectacular, Swirling Storm Genevieve
             </a>
           </div>
         </article>
-  
+
         <article class="py-4 d-flex">
           <div class="col-md-5 col-lg-3 col-3 p-0 pb-md-5 pb-0 h-md-50">
             <img src="./images/tech_and_science/google-gmail-iphone-2018.webp" alt="avatar" />
           </div>
           <div class="col-md-7 col-lg-9">
             <a href="#">
-                Is Gmail Down? Google Drive Outages Reported in U.S., Europe and Australia
+              Is Gmail Down? Google Drive Outages Reported in U.S., Europe and Australia
             </a>
           </div>
-        </article>  
+        </article>
       </div>
     </div>
   </section>
 
   <section class="row bg-white border-top flex-column">
-    <h4 class="red col-12">
+    <h4 class="red col-12 pt-4">
       CULTURE
     </h4>
-  
+
     <div class="row mb-3 m-0">
-  
+
       <div class="col-md-4">
-  
+
         <div class="card border-0 mb-3 order-first">
           <figure class="position-relative">
-            <img src="./images/coltur/wwe-asuka-raw-womens-championship-summerslam.webp" alt="police-image" class="w-100" />
+            <img src="./images/coltur/wwe-asuka-raw-womens-championship-summerslam.webp" alt="police-image"
+              class="w-100" />
           </figure>
           <a class="mb-2" href="#">
             WWE 'Monday Night RAW' Results: What's Next for Asuka After SummerSlam?
           </a>
         </div>
       </div>
-  
+
       <div class="col-md-4">
-  
+
         <div class="card border-0 mb-3 order-first">
           <figure class="position-relative">
             <img src="./images/coltur/i-may-destroy-you-ending.webp" alt="police-image" class="w-100" />
@@ -1247,38 +1258,38 @@
           </a>
         </div>
       </div>
-  
+
       <div class="col-md-4">
-  
+
         <article class="border-bottom pb-4 d-flex">
           <div class="col-md-5 col-lg-3 col-3 p-0 pb-md-5 pb-0 h-md-50">
             <img src="./images/coltur/wwe-championship-drew-mcintyre-summerslam-win.webp" alt="avatar" />
           </div>
           <div class="col-md-7 col-lg-9">
             <a href="#" class="h6">
-                Drew McIntyre Excited for RAW's 'Reset,' Future and Keith Lee's Debut
+              Drew McIntyre Excited for RAW's 'Reset,' Future and Keith Lee's Debut
             </a>
           </div>
         </article>
-  
+
         <article class="border-bottom py-4 d-flex">
           <div class="col-md-5 col-lg-3 col-3 p-0 pb-md-5 pb-0 h-md-50">
             <img src="./images/coltur/i-may-destroy-you-season-2.webp" alt="avatar" />
           </div>
           <div class='col-md-7 col-lg-9'>
             <a href="#">
-                Michaela Coel Hints At Status of 'I May Destroy You' Season 2
+              Michaela Coel Hints At Status of 'I May Destroy You' Season 2
             </a>
           </div>
         </article>
-  
+
         <article class="py-4 d-flex">
           <div class="col-md-5 col-lg-3 col-3 p-0 pb-md-5 pb-0 h-md-50">
             <img src="./images/coltur/usps-postal-service.webp" alt="avatar" />
           </div>
           <div class="col-md-7 col-lg-9">
             <a href="#">
-                How Would USPS Handle Mailing The World's Oldest Letters?
+              How Would USPS Handle Mailing The World's Oldest Letters?
             </a>
           </div>
         </article>
@@ -1287,67 +1298,68 @@
   </section>
 
   <section class="row bg-white border-top flex-column">
-    <h4 class="red col-12">
+    <h4 class="red col-12 pt-4">
       SPORTS
     </h4>
-  
+
     <div class="row mb-3 m-0">
-  
+
       <div class="col-md-4">
-  
+
         <div class="card border-0 mb-3 order-first">
           <figure class="position-relative">
             <img src="./images/sport/washington-football-team.webp" alt="police-image" class="w-100" />
           </figure>
           <a class="mb-2" href="#">
-                Washington Football Team President: Search for New Name Will Take Time
+            Washington Football Team President: Search for New Name Will Take Time
           </a>
         </div>
       </div>
-  
+
       <div class="col-md-4">
-  
+
         <div class="card border-0 mb-3 order-first">
           <figure class="position-relative">
-            <img src="./images/sport/wwe-summerslam-2020-drew-mcintyre-randy-orton.webp" alt="police-image" class="w-100" />
+            <img src="./images/sport/wwe-summerslam-2020-drew-mcintyre-randy-orton.webp" alt="police-image"
+              class="w-100" />
           </figure>
           <a class="mb-2" href="#">
             WWE 'SummerSlam' 2020: Start Time, Card and How to Watch Online
           </a>
         </div>
       </div>
-  
+
       <div class="col-md-4">
-  
+
         <article class="border-bottom pb-4 d-flex">
           <div class="col-md-5 col-lg-3 col-3 p-0 pb-md-5 pb-0 h-md-50">
             <img src="./images/sport/keith-lee-karrion-kross-nxt-titantron.webp" alt="avatar" />
           </div>
           <div class="col-md-7 col-lg-9">
             <a href="#" class="h6">
-                Keith Lee Is Out for 'Retribution' at 'NXT Takeover: XXX'
+              Keith Lee Is Out for 'Retribution' at 'NXT Takeover: XXX'
             </a>
           </div>
         </article>
-  
+
         <article class="border-bottom py-4 d-flex">
           <div class="col-md-5 col-lg-3 col-3 p-0 pb-md-5 pb-0 h-md-50">
             <img src="./images/sport/lebron-james.webp" alt="avatar" />
           </div>
           <div class='col-md-7 col-lg-9'>
             <a href="#">
-                Ohio Native LeBron James Praises Goodyear Workers After Trump's Boycott
+              Ohio Native LeBron James Praises Goodyear Workers After Trump's Boycott
             </a>
           </div>
         </article>
-  
+
         <article class="py-4 d-flex">
           <div class="col-md-5 col-lg-3 col-3 p-0 pb-md-5 pb-0 h-md-50">
             <img src="./images/sport/asuka-wwe-xtreme-rules-sasha-banks.webp" alt="avatar" />
           </div>
           <div class="col-md-7 col-lg-9">
             <a href="#">
-                Asuka Is Ready for Bayley and Sasha Banks at SummerSlam
+              Asuka Is Ready for Bayley and Sasha Banks at SummerSlam
             </a>
           </div>
         </article>
@@ -1356,44 +1368,91 @@
   </section>
 
   <section class="row border-bottom border-top bg-white pb-5">
-    <div class="col-lg-8 mb-md-3 my-5 m-lg-0">
-      <h6 class="red">SUBSCRIBE</h6>
+    <div class="col-lg-8 mb-md-3 my-5 m-lg-0 pt-2">
+      <h6 class="red p-2">SUBSCRIBE</h6>
       <div class="d-sm-flex bg-lightgray h-100 bg-light">
         <div class="col-lg-5 col-sm-4 col-12">
-          <img src="./images/subscribe/fe-addiction-banner.webp" alt="Subscription image">
+          <img src="./images/subscribe/fe-addiction-banner.webp" alt="Subscription image"
+            class="h-75 w-75position-relative">
         </div>
         <div class="ml-sm-3 col-sm-6 my-auto text-center text-sm-left">
-            <h4 class="font-weight-bold">In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h4>
-            <p class="font-weight-lighter small">
-                All Access + Weekly Delivery.<br>
-                Choose A Membership That's Perfect for You!
-            </p>
-            <button type="submit" class="btn border-0 outline-none bg-red text-white p-2 h5 rounded">SUBSCRIBE
-              &gt;</button>
+          <h4 class="font-weight-bold">In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h4>
+          <p class="font-weight-lighter small">
+            All Access + Weekly Delivery.<br>
+            Choose A Membership That's Perfect for You!
+          </p>
+          <button type="submit" class="btn border-0 outline-none bg-red text-white p-2 h5 rounded">SUBSCRIBE
+            &gt;</button>
         </div>
       </div>
     </div>
-    <div class="col-lg-4 mt-md-5 my-5 m-lg-0 ">
-      <h6 class="red">NEWSLETTER</h6>
+
+    <div class="col-lg-4 mt-md-5 my-5 m-lg-0 pt-2">
+      <h6 class="red pt-2">NEWSLETTER</h6>
       <div class="d-flex h-100 border">
-        <div class="col-lg-6 col-3 d-none d-sm-block p-0">
-          <img src="./images/subscribe/newsletter.png" alt="Subscription image">
+        <div class="col-lg-6 col-3 d-none d-sm-block">
+          <img src="./images/subscribe/newsletter.png" alt="Subscription image" class="mr-4">
         </div>
         <div class="col-lg-6 col-sm-9 col-12 my-auto text-center text-sm-left">
           <h4 class="font-weight-bold">The Starting 5</h4>
           <p class="font-weight-lighter small">
-            See why nearly a quarter of a million 
-            subscribers begin their day with 
+            See why nearly a quarter of a million
+            subscribers begin their day with
             the Starting 5.
           </p>
           <input class="border p-1 my-2 w-100" type="text" placeholder="Email Address">
           <button type="submit" class="btn border-0 outline-none bg-red text-white h5 w-100 rounded">
             FREE SIGN UP
-        </button>
+          </button>
         </div>
       </div>
     </div>
   </section>
+
+  <section
+    class="bg-white row border-top border-bottom pt-5 justify-content-between flex-md-row flex-column footer-social">
+    <div class="w-100 w-md-0 d-md-flex justify-content-start col-md-5">
+      <img class="img-fluid w-50 p-0 jhustify-content-start mb-3 footer-logo" src="./images/Newsweek.png"
+        alt="NewsWeek logo">
+      <p class="col-md-2 text-nowrap align-self-center text-left mb-md-n2 ml-md-2 p-0 mb-2">© 2020 NEWSWEEK</p>
+    </div>
+    <ul class="list-unstyled row col-md-4 m-0 mb-3 justify-content-md-end">
+      <li><i class="fab fa-facebook-square mx-1 fa-2x"></i></li>
+      <li><i class="fab fa-twitter mx-1 fa-2x"></i></li>
+      <li><i class="fab fa-instagram mx-1 fa-2x"></i></li>
+      <li><i class="fab fa-tumblr mx-1 fa-2x"></i></li>
+      <li><i class="fab fa-linkedin-in mx-1 fa-2x"></i></li>
+    </ul>
+  </section>
+
+  <footer class="pt-5 bg-white row">
+    <ul class="footer-ul text-secondary px-1 d-flex list-unstyled h6 flex-wrap">
+      <li class="px-2 ">Editions:</li>
+      <li class="px-2 border-right">U.S. Edition</li>
+      <li class="px-2 border-right">日本</li>
+      <li class="px-2 border-right">Pakistan</li>
+      <li class="px-2 border-right">Polska</li>
+      <li class="px-2 border-right">România</li>
+    </ul>
+
+    <ul class="footer-ul text-secondary px-1 mt-3 d-flex list-unstyled h6 flex-wrap">
+      <li class="px-2">About Us</li>
+      <li class="px-2 border-right">Corrections</li>
+      <li class="px-2 border-right">Contact Us</li>
+      <li class="px-2 border-right">Editorial Guidelines</li>
+      <li class="px-2 border-right">Advertise</li>
+      <li class="px-2 border-right">Copyright</li>
+      <li class="px-2 border-right">Copyright</li>
+      <li class="px-2 border-right">Terms & Conditions</li>
+      <li class="px-2 border-right">Privacy Policy</li>
+      <li class="px-2 border-right">Cookie Policy</li>
+      <li class="px-2 border-right">Terms of Sale</li>
+      <li class="px-2 border-right">Archive</li>
+      <li class="px-2 border-right">Announcements</li>
+      <li class="px-2 border-right">Consent preferences</li>
+    </ul>
+
+  </footer>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
