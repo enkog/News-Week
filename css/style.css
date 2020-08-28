@@ -20,11 +20,8 @@ p {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+#top img,
 .footer-logo {
-  object-fit: unset;
-}
-
-#top img {
   object-fit: unset;
 }
 
@@ -81,10 +78,7 @@ figure figcaption {
   font-family: Roboto, "Open Sans", "Alata", sans-serif;
 }
 
-.debate article:first-child {
-  border-bottom: 4px solid var(--color-grey);
-}
-
+.debate article:first-child,
 .debate article:nth-child(2) {
   border-bottom: 4px solid var(--color-grey);
 }
